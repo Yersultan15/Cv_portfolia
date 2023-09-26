@@ -1,0 +1,103 @@
+
+body {
+    background-color: #f7f7f7;
+    color: #071952;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: #071952;
+    color: #fff;
+    padding: 30px;
+
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #071952;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.container#footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+a {
+    color: #071952;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.section-content {
+    margin-bottom: 30px;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.section-divider {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+.progress {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .progress {
+        height: 20px;
+    }
+}
+.display-4{
+    color: white;
+}
+
+
+#profile-picture {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.jumbotron-container {
+    position: relative;
+    overflow: hidden;
+}
